@@ -1,0 +1,24 @@
+.landpage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-part, .right-part {
+    flex: 1 0 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-part{
+    align-items: flex-end;
+}
+
+.right-part .button-landpage {
+    align-self: flex-start;
+
+.left-part p, .right-part p {
+    flex: 1;
+    max-width: 550px;
+}
