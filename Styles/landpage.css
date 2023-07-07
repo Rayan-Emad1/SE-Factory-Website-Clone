@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.left-part, .right-part {
+.left-part, .right-part, .overlay-left {
     flex: 1 0 50%;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-.left-part{
+.left-part, .overlay-left{
     align-items: flex-end;
 }
 
@@ -55,3 +55,17 @@
   line-height: 1;
 }
 
+.left-part {
+    background-image: url(../Photos/landpage-left.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .overlay-left{
+    margin: 0 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 218, 94, 0.7);
+  }
