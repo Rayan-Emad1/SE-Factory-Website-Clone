@@ -15,10 +15,43 @@
     align-items: flex-end;
 }
 
-.right-part .button-landpage {
+.right-part .button-landpage  {
     align-self: flex-start;
+}
 
-.left-part p, .right-part p {
+.description-landpage{
     flex: 1;
     max-width: 550px;
+    min-height: 10ch;
+    margin: 40px 0px;
+    line-height: 1.5;
+    font: 14px;
+
 }
+
+.title-landpage{
+    color: #fcfcfd;
+    background-color: #363738;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    line-height: 2.5;
+    max-width: fit-content;
+}
+
+.button-landpage{
+    color: #FCFCFD;
+    font-family: Noto Sans Mono, sans-serif;
+    font: 16px ;
+    background-color: #232323E6;
+    padding: 15px 20px;
+}
+
+.major-landpage{
+  text-transform: uppercase;
+  font-family: Noto Sans Mono, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+}
+
