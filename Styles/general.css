@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+span {
+    color: #28eea7;
+  }
 .HomePage{
     margin: 0;
     padding: 0;
