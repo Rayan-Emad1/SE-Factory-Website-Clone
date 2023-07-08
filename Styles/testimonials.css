@@ -1,0 +1,32 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 70px;
+}
+
+.alumni{
+    background-color: #363738;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 64px;
+    display: flex;
+}
+
+.alumni-pic{
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 20px solid #363738;
+}
+
+.alumni-icon{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
