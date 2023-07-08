@@ -1,21 +1,22 @@
 .hello-world {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 70px ;
   }
   
   .title {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
-  
-  .title-heading {
-    flex: 1;
-    margin-right: 10px;
+    width: 100%;
   }
   
   .shapes {
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
   }
   
   .circle {
@@ -23,14 +24,23 @@
     height: 20px;
     border-radius: 50%;
     background-color: blue;
-    margin-right: 5px;
+    margin-left: 5px;
   }
   
-  .video {
-    margin: 15px;
+  .hello-world-video {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 1158px;
+    min-width: 383px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
   }
   
-  .video iframe {
+  .hello-world-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
   }
