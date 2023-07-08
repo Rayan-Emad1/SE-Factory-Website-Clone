@@ -3,10 +3,17 @@
 body{
     margin: 0;
 }
+
+.HomePage{
+    display: flex;
+    flex-direction: column;
+}
+
 span {
     color: #28eea7;
     font-weight: 900;
-  }
+}
+  
 .HomePage{
     margin: 0;
     padding: 0;
@@ -14,24 +21,24 @@ span {
     flex-direction: column;
 }
 
- .hire-talents{
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
- }
- .testimonials{
+.shapes {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    grid-column-gap: 5px;
+}
 
- }
- .FAQs{
+.circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
 
- }
- .contact-us{
-
- }
- .partners{
-
- }
- .newsletter{
-
- }
- .footer{
-
- }
