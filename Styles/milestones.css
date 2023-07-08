@@ -1,0 +1,34 @@
+.milestones {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .milestones-block{
+    display: flex;
+  }
+
+  .left-column-milestone {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-column-milestone {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-column-row-milestone,
+  .right-column-row2-milestone {
+    display: flex;
+  }
+  
+  .stats-milestone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
