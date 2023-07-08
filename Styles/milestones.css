@@ -1,34 +1,63 @@
 .milestones {
     display: flex;
-    height: 500px;
+    height: 521px;
     flex-direction: column;
+    align-items: center;
+   padding: 70px 70px;
   }
 
   .milestones-block{
     display: flex;
+    margin-top: 10px;
+    justify-content: fex-between;
   }
 
-  .left-column-milestone {
+  .left-column-milestone  {
     flex: 1;
-    padding: 20px;
+    display: flex;
+    padding-right: 25px;
+    align-content: stretch;
   }
   
   .right-column-milestone {
     flex: 1;
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    grid-row-gap: 20px;
   }
   
-  .right-column-row-milestone,
-  .right-column-row2-milestone {
+  .right-column-row-milestone{
     display: flex;
+    height: 190px ;
+    grid-column-gap: 20px;
   }
   
   .stats-milestone {
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding: 40px;
+    align-items: flex-start;
+    grid-row-gap: 20px;
+    background-color:#f1f2f3;
+    align-self: stretch;
+    border-radius: 20px
   }
   
- 
+  .stats-milestone  h1{
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .stats-milestone  h3{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .milestones-block li {
+    margin-bottom: 7px; 
+  }
+  
