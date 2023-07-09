@@ -1,0 +1,122 @@
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    background-color: rgb(40, 238, 167);
+    font-family: "Noto Sans Mono", sans-serif;
+}
+
+.contactUs-block{
+    display: flex;
+    background-color: rgb(40, 238, 167);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-wrap: wrap-reverse;
+    margin-top: 50px;
+}
+.location{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgb(54, 55, 56);
+    border-radius: 20px;
+}
+.location img{
+    border: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+    flex: 1;
+    max-width: 300px;
+    max-height: 300px;
+}
+.location p{
+    text-align: left;
+    margin: 0;
+}
+
+.contact-form {
+    display: flex;
+    flex:4;  
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(54, 55, 56);
+    border-radius: 20px;
+}
+
+.contact-form h1{
+    color:  rgb(252, 252, 253);
+    font-family: "Noto Sans Mono", sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.contact-form-input{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 10px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-column-gap: 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.text-input{
+    padding: 8px 16px;
+    height: 27px; 
+    flex: 1;
+}
+
+.input-chechbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+.checkbox-input-choices{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inquiry-text-input{
+    flex: 1;
+    min-height: 120px;
+    text-align: start;
+}
+
+input::placeholder {
+    text-align: start;
+}
+
+.contact-submit{
+    align-self:flex-end;
+    color: #363738;
+    background-color: #28eea7;
+    padding: 15px 20px;
+    font-weight: 800;
+}
+
+.contact-us .circle:nth-child(1) {
+    background-color: #fcfcfd;
+  }
+  
+.contact-us .circle:nth-child(2) {
+    background-color: #a5a6a9;
+  }
+  
+.contact-us .circle:nth-child(3) {
+    background-color:  rgb(54, 55, 56);
+  }
