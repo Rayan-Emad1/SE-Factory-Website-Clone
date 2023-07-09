@@ -8,15 +8,15 @@
 
 .hire-talents .circle:nth-child(1) {
     background-color: #fcfcfd;
-  }
+}
   
 .hire-talents .circle:nth-child(2) {
     background-color: #a5a6a9;
-  }
+}
   
 .hire-talents .circle:nth-child(3) {
     background-color: #28eea7;
-  }
+}
 
 .become-RP{
     display: flex;

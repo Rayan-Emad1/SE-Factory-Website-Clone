@@ -41,6 +41,7 @@ button{
     border-radius: 50%;
     margin-left: 5px;
 }
-.FAQs .circle:nth-child(3) {
+
+.circle:nth-child(3) {
     margin-right: 10px;
-  }
+}

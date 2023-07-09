@@ -38,10 +38,12 @@
     border-radius: 50%;
     margin-right: 20px;
 }
+
 .alumni-info{
     display: flex;
     align-items: center;
 }
+
 .alumni-name{
     color: #fcfcfd;
     font-family: Noto Sans Mono, sans-serif;

@@ -5,7 +5,7 @@
     padding: 70px;
     background-color: #363738;
     grid-row-gap: 24px;
-}
+  }
 
 .FAQs-rows{
     display: flex;
@@ -13,7 +13,7 @@
     background-color: #232323;
     padding: 20px 24px;
     border-radius: 24px;
-}
+  }
 
 .FAQs-info {
     color: rgb(252, 252, 253);
@@ -22,15 +22,15 @@
     font-family: "Noto Sans Mono", sans-serif;
     font-size: 14px;
     font-weight: 900;
-}
+  }
 
-.title-FAQs{
+  .title-FAQs {
     color: #fcfcfd;
     background-color: #363738;
     font-size: 25px;
     font-weight: bold !important;
     margin-left: 20px;
-}
+  }
 
 .FAQs .circle:nth-child(1) {
     background-color: #fcfcfd;
@@ -44,10 +44,10 @@
     background-color: #28eea7;
   }
   
-  #FAQs-button{
-    background-color: rgb(35, 35, 35);
-    border-bottom-color: rgb(252, 252, 253);
-    font-size: 16px;
-    font-weight: 800;
-    font-family: "Noto Sans Mono", sans-serif;
-  }
+#FAQs-button{
+  background-color: rgb(35, 35, 35);
+  border-bottom-color: rgb(252, 252, 253);
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Noto Sans Mono", sans-serif;
+}

@@ -1,6 +1,7 @@
 .newsletter {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 70px;
     flex-wrap: wrap;
     background-color:  rgb(54, 55, 56)
@@ -35,18 +36,18 @@
 .newsletter input::placeholder {
     font-family: "Noto Sans Mono", sans-serif;
     font-weight: bold;
-  }
+}
 
 .newsletter h1 {
     color: white;
     font-size: 30px;
     font-weight: 900;
-  }
+}
 
-  .newsletter p {
+.newsletter p {
     color: rgb(165, 166, 169);
     font-size: 14px;
     font-weight: 400;
     font-family: "Noto Sans Mono", sans-serif;
     margin: 0;
-  }
+}
