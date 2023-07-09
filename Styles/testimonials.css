@@ -12,15 +12,23 @@
     align-items: center;
     padding: 20px 20px 20px 64px;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.alumni-bio{
+    display: flex;
+    flex-direction: column;
+    max-width: 705px;
+    min-width: 380px;
+    flex: 1;
 }
 
 .alumni-pic{
-    width: 400px;
-    height: 400px;
     max-width: 400px;
     border-radius: 50px;
     object-fit: cover;
     border: 20px solid #363738;
+    flex: 1 1;
 }
 
 .alumni-icon{
