@@ -1,0 +1,52 @@
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    flex-wrap: wrap;
+    background-color:  rgb(54, 55, 56)
+}
+
+.newsletter-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    align-items: stretch;
+    height: 45px;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.newsletter-button {
+    padding: 0 20px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+.newsletter input::placeholder {
+    font-family: "Noto Sans Mono", sans-serif;
+    font-weight: bold;
+  }
+
+.newsletter h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .newsletter p {
+    color: rgb(165, 166, 169);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Noto Sans Mono", sans-serif;
+    margin: 0;
+  }
