@@ -1,4 +1,4 @@
-.contact-us{
+.contact-Us{
     display: flex;
     flex-direction: column;
     padding: 70px;
@@ -34,6 +34,23 @@
 .location p{
     text-align: left;
     margin: 0;
+    color:  rgb(165, 166, 169);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.location h5{
+    color: rgb(165, 166, 169);
+    font-family: "Noto Sans Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+#contact-Us-p{
+    color:rgb(252, 252, 253);
+    font-family: "Noto Sans Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .contact-form {
@@ -89,6 +106,14 @@
 .checkbox-input-choices{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.checkbox-label{
+    color: rgb(252, 252, 253);
+    font-family: "Noto Sans Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .inquiry-text-input{
@@ -97,11 +122,13 @@
     text-align: start;
 }
 
-input::placeholder {
-    text-align: start;
+.contact-Us input::placeholder {
+    text-align: left;
+    font-family: "Noto Sans Mono", sans-serif;
+    font-weight: bolder;
 }
 
-.contact-submit{
+.contact-Us .contact-submit{
     align-self:flex-end;
     color: #363738;
     background-color: #28eea7;
@@ -109,14 +136,14 @@ input::placeholder {
     font-weight: 800;
 }
 
-.contact-us .circle:nth-child(1) {
+.contact-Us .circle:nth-child(1) {
     background-color: #fcfcfd;
   }
   
-.contact-us .circle:nth-child(2) {
+.contact-Us .circle:nth-child(2) {
     background-color: #a5a6a9;
   }
   
-.contact-us .circle:nth-child(3) {
+.contact-Us .circle:nth-child(3) {
     background-color:  rgb(54, 55, 56);
   }
