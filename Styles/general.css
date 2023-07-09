@@ -45,3 +45,27 @@ button{
 .circle:nth-child(3) {
     margin-right: 10px;
 }
+
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 80px;
+    left: 100px;
+    z-index: 99;
+}
+
+.header .header-image .SE-Logo{
+    flex: 1;
+    width: 187px;
+    height: 187px;
+    object-fit:scale-down;
+}
+
+.header-imag{
+    background-color: black;
+}
+
+.SE-Logo{
+    margin-right: 900px;
+}
