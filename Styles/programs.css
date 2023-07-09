@@ -5,7 +5,7 @@
     background-color: rgb(40, 238, 167);
   }
   
-  .title-heading{
+.title-heading{
     color: #fcfcfd;
     text-align: right;
     text-transform: uppercase;
@@ -13,43 +13,44 @@
     margin-bottom: 10px;
     padding: 10px 20px;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: bold;
     font-family: Noto Sans Mono, sans-serif;
   }
 
-  .programs .circle:nth-child(1) {
+.programs .circle:nth-child(1) {
     background-color: #fcfcfd;
   }
   
-  .programs .circle:nth-child(2) {
+.programs .circle:nth-child(2) {
     background-color: #a5a6a9;
   }
   
-  .programs .circle:nth-child(3) {
+.programs .circle:nth-child(3) {
     background-color: #363738;
   }
 
-  .program-content {
+.program-content {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
   }
   
-  .program-types {
+.program-types {
     flex: 1;
     display: flex;
   }
   
-  .child {
+.child {
     font-family: "Noto Sans Mono", sans-serif;
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 19px;
+    font-weight: 1000 !important;
     padding: 20px 50px;
     background-color: rgb(40, 238, 167);
-    color: #363738;
+    color: rgb(54, 55, 56);
+    text-decoration-style: solid;
   }
 
-  .child:nth-child(2) {
+.child:nth-child(2) {
     background-color: #363738;
     color: rgb(40, 238, 167);
     border-top-left-radius: 10px;
@@ -57,7 +58,7 @@
     padding-bottom: 3px;
   }
   
-  .program-info {
+.program-info {
     flex: 1;
     display: flex;
     background-color: #363738;
@@ -65,31 +66,35 @@
     flex-wrap: wrap;
   }
   
-  .program-description {
+.program-description {
     flex: 1;
     padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
-  .program-info h1{
+.program-info h1{
     color:#fcfcfd;
     font-size: 22px;
     font-weight: 900;
     display: inline-block;
   }
 
-  .program-info p{
+.program-info p{
   color:#dcdee1;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 21px;
   margin-bottom: 10px;
   grid-row-gap: 24px;
   flex:1;
   display: flex;
+  font-family: Noto Sans Mono, sans-serif;
 }
     
   
-  .program-footer {
+.program-footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -98,7 +103,7 @@
     flex-wrap: wrap;
   }
   
-  .program-data {
+.program-data {
     flex: 1;
     font-family: Noto Sans Mono, sans-serif;
     color: #fcfcfd;
@@ -109,9 +114,10 @@
     padding: 15px 21px;
     margin-bottom: 0px;
     margin: 0px 0px;
+    min-width: 270px;
   }
   
-  .program-learnMore {
+.program-learnMore {
     background-color: #232323;
     color: #fcfcfd;
     text-align: right;
@@ -123,6 +129,7 @@
 .program-image {
     flex: 1;
     max-width: 400px;
+    height: auto;
     border-radius: 50px;
     object-fit: cover;
     border: 20px solid #363738;

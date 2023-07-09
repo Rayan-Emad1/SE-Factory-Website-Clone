@@ -4,11 +4,6 @@ body{
     margin: 0;
 }
 
-.HomePage{
-    display: flex;
-    flex-direction: column;
-}
-
 span {
     color: #28eea7;
     font-weight: 900;
@@ -19,6 +14,7 @@ span {
     padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .title {
