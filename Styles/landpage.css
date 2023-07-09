@@ -29,6 +29,7 @@
 }
 .overlay-left, .overlay-right{
   padding-top: 150px;
+  grid-row-gap: 5px;
 }
 
 .left-part, .overlay-left{
@@ -66,9 +67,9 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 24px;
-    line-height: 2.5;
     max-width: fit-content;
     font-weight: 900;
+    max-height: fit-content;
     font-family: Noto Sans Mono, sans-serif;
 }
 
@@ -140,3 +141,13 @@
     font-size: 16px;
     font-weight: 900px;
   }
+
+.landpage h1 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.landpage p{
+  margin: 0;
+  padding: 20px 0;
+}
