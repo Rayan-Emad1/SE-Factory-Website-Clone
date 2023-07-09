@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="Styles/faqs.css"/>
     <link rel="stylesheet" type="text/css" href="Styles/contact-us.css"/>
     <link rel="stylesheet" type="text/css" href="Styles/partners.css"/>
+    <link rel="stylesheet" type="text/css" href="Styles/newsletter.css"/>
   </head>
   <body>
     <div class="HomePage">
@@ -30,13 +31,13 @@
                 Design. Get hands-on experience and gain essential skills for a
                 successful tech career.
                 </p>
-                <button class="button-landpage">#Get_trained</button>
+                <button class="button-landpage">#GET_TRAINED</button>
             </div>
             </div>
             <div class="right-part">
             <div class="overlay-right">
                 <h1 class="title-landpage">WANT TO HIRE?</h1>
-                <h1 class="major-landpage">JOB-READY TECH TALENT ?</h1>
+                <h1 class="major-landpage">JOB-READY TECH TALENT?</h1>
                 <p class="description-landpage">
                 Look no further than our comprehensive talent matching and
                 placement services! Our expert team will connect you with highly
@@ -162,7 +163,8 @@
                     <li class="RPstep">Interviews at will</li>
                     <li class="RPstep">Tech talks participation and engagement with students opportunities</li>
                 </ol>
-                <p class="RPstep<button class="contact-us">CONTACT US ></button>">Are you on the hunt for exceptional rising junior developers? Look no further than SE Factory!</p>
+                <p class="RPstep">Are you on the hunt for exceptional rising junior developers? Look no further than SE Factory!</p>
+                <button class="contact-us">CONTACT US ></button>
                 
             </div>
             <div class="HR-factory">
@@ -225,7 +227,7 @@
             </div>
             <button class="contact-us" id="FAQs-button">VIEW ALL ></button>
         </div>
-        <div class="contact-us">
+        <div class="contact-Us">
             <div class="title">
                 <h1 class="title-heading"><span>></span>  Contact us</h1>
                 <div class="shapes">
@@ -236,8 +238,12 @@
             </div>
             <div class="contactUs-block">    
                 <div class="location">
-                    <img class="program-image" src="../Photos/map.png" alt="Programs Image">
-                    <p>// SE Factory<br>
+                    <div>
+                        <h5>> Get directions</h5>
+                        <img class="program-image" src="../Photos/map.png" alt="Programs Image">
+                    </div>
+                    
+                    <p><span id="contact-Us-p">// SE Factory</span><br>
                         Beirut Digital District<br>
                         BDD 1243<br>
                         Basement (Floor -1)</p>
@@ -268,23 +274,30 @@
                         <div class="input-chechbox">
                             <h1>// what can we help you with?</h1>
                             <div class="checkbox-input-choices">
-                                <input type="radio" id="fcs" name="program" value="FCS">
-                                <label for="fcs" class="checkbox-label">FCS</label>
-
-                                <input type="radio" id="fsw" name="program" value="FSW">
-                                <label for="fsw" class="checkbox-label">FSW</label>
-
-                                <input type="radio" id="fsd" name="program" value="FSD">
-                                <label for="fsd" class="checkbox-label">FSD</label>
-
-                                <input type="radio" id="uix" name="program" value="UIX">
-                                <label for="uix" class="checkbox-label">UIX</label>
-
-                                <input type="radio" id="hire-talent" name="program" value="Hire Talent">
-                                <label for="hire-talent" class="checkbox-label">Hire Talent</label>
-
-                                <input type="radio" id="other" name="program" value="Other">
-                                <label for="other" class="checkbox-label">Other</label>
+                                <div class="help-subject-CU">
+                                    <input type="radio" id="fcs" name="program" value="FCS">
+                                    <label for="fcs" class="checkbox-label">FCS</label>
+                                </div>
+                                <div class="help-subject-CU">
+                                    <input type="radio" id="fsw" name="program" value="FSW">
+                                    <label for="fsw" class="checkbox-label">FSW</label>
+                                </div>
+                                <div class="help-subject-CU">
+                                    <input type="radio" id="fsd" name="program" value="FSD">
+                                    <label for="fsd" class="checkbox-label">FSD</label>
+                                </div>
+                                <div class="help-subject-CU">
+                                    <input type="radio" id="uix" name="program" value="UIX">
+                                    <label for="uix" class="checkbox-label">UIX</label>
+                                </div>
+                                <div class="help-subject-CU">
+                                    <input type="radio" id="hire-talent" name="program" value="Hire Talent">
+                                    <label for="hire-talent" class="checkbox-label">Hire Talent</label>
+                                </div>
+                                <div class="help-subject-CU">
+                                    <input type="radio" id="other" name="program" value="Other">
+                                    <label for="other" class="checkbox-label">Other</label>
+                                </div>
 
                             </div>
                         </div>
@@ -326,11 +339,16 @@
             </div>
 
         </div>
-
         <div class="newsletter">
-            
-        </div>
-        
+            <div class="newsletter-text">
+                <h1 class="newsletter-heading">Subscribe to our <span>newsletter</span></h1>
+                <p class="newsletter-description">and stay up-to-date with our latest news</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </div>  
     </div>>
   </body>
 
